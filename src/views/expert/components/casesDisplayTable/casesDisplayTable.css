@@ -1,0 +1,49 @@
+.expert_cases_display_table {
+  width: 100%;
+  min-width: 32rem;
+}
+
+.expert_cases_display_table__head {
+  border-bottom: 1px solid var(--theme-blue);
+}
+
+.expert_cases_display_table__label {
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.expert_cases_display_table__row {
+  border-bottom: 1px solid var(--theme-gray);
+}
+
+.expert_cases_display_table__cell {
+  padding: 1rem;
+}
+
+.expert_cases_display_table__cell_link {
+  color: var(--theme-blue);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.expert_cases_display_table__cell_link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 992px) {
+  .expert_cases_display_table__label,
+  .expert_cases_display_table__cell,
+  .expert_cases_display_table__cell_link {
+    padding: 1rem .25rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .expert_cases_display_table__label,
+  .expert_cases_display_table__cell,
+  .expert_cases_display_table__cell_link {
+    padding: 1rem;
+  }
+}

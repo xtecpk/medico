@@ -1,0 +1,6 @@
+.h2_comp {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--theme-blue);
+}

@@ -1,0 +1,147 @@
+.hero-outer-container {
+  position: inherit;
+  min-height: 800px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 0;
+}
+
+
+.hero-text.ltr {
+  animation: fadeOutDown 2s ease-in-out forwards;
+}
+
+.hero-text.rtl {
+  animation: fadeOutDown 2s ease-in-out forwards;
+}
+
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.hero-image-bg.ltr {
+  animation: fadeOutRightBG 750ms ease-in-out forwards;
+}
+
+@keyframes fadeOutRightBG {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(2%);
+    opacity: 1;
+  }
+}
+
+.hero-image-bg.rtl {
+  animation: fadeOutLeftBG 750ms ease-in-out forwards;
+}
+
+@keyframes fadeOutLeftBG {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.hero-image-bg .hero-image {
+  /* height: 80vh; */
+  max-height: 700px;
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.hero-subheading {
+  font-size: 24px;
+}
+
+/* Styles for small devices (mobile phones) */
+@media (max-width: 576px) {
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 24px;
+  }
+
+  .hero-subheading {
+    font-size: 16px;
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 28px;
+  }
+
+  .hero-subheading {
+    font-size: 18px;
+  }
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .hero-container {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+  }
+
+  .hero-subheading {
+    font-size: 20px;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-container {
+    width: 90%;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-subheading {
+    font-size: 22px;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .hero-container {
+    width: 80%;
+  }
+
+  .hero-heading {
+    font-size: 48px;
+  }
+
+  .hero-subheading {
+    font-size: 24px;
+  }
+}

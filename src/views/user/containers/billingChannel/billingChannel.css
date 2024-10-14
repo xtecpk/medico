@@ -1,0 +1,111 @@
+.user_billingChannel__head__top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: start;
+}
+
+.user_billingChannel__head__top>button {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  color: #3573C9;
+}
+
+.user_billingChannel__head__bottom {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.user_billingChannel__body_outer {
+  display: grid;
+  grid-template-rows: 0fr;
+  border-top: noen;
+  padding-top: 0;
+  transition: grid .3s, padding .3s;
+}
+
+.user_billingChannel__body_outer-expanded {
+  /* border-top: 1px solid #D9D9D9; */
+  padding-top: 1rem;
+  grid-template-rows: 1fr;
+}
+
+.user_billingChannel__label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+}
+
+.user_billingChannel__message {
+  font-size: .875rem;
+  max-width: 90ch;
+}
+
+.user_billingChannel__body {
+  overflow: hidden;
+}
+
+.user_billingChannel__radio_divs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.user_billingChannel__radio_divs>div {
+  display: flex;
+  gap: 1rem;
+}
+
+.user_billingChannel___input_div {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  gap: 1.125rem;
+}
+
+.user_billingChannel___input_div input {
+  width: 100%;
+}
+
+.user_billingChannel__bank_transfer__table_outer {
+  overflow-x: auto;
+}
+
+.user_billingChannel__bank_transfer_table {
+  min-width: 20rem;
+  max-width: 30rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.user_billingChannel__bank_transfer_table__key {
+  color: var(--theme-gray);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: .5rem;
+}
+
+.user_billingChannel__bank_transfer_table__value {
+  font-size: 0.875rem;
+  font-weight: 500;
+  max-width: 70ch;
+  padding: .5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .user_billingChannel__head__top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .user_billingChannel__radio_divs {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+}

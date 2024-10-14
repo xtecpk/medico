@@ -1,0 +1,57 @@
+.expert_chatMessageItem {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.expert_chatMessageItem__sender_label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--theme-blue);
+  background-color: var(--theme-gray-light);
+  border-radius: 2rem;
+}
+
+.expert_chatMessageItem__sender_label>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.expert_chatMessageItem__message_div {
+  width: 80%;
+  background-color: #2F405808;
+  color: var(--theme-blue);
+  padding: .5rem .75rem;
+  font-size: .75rem;
+  border-radius: .75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.expert_chatMessageItem__message_div--mine {
+  margin-left: auto;
+  background-color: #68A7FF21;
+}
+
+.expert_chatMessageItem__text {
+  word-break: break-word;
+}
+
+.expert_chatMessageItem__time {
+  color: var(--theme-gray);
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .expert_chatMessageItem {
+    gap: 1rem;
+  }
+
+  .expert_chatMessageItem__message_div {
+    width: 60%;
+  }
+}

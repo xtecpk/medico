@@ -1,0 +1,26 @@
+.expert_caseDetailsTable {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.expert_caseDetailsTable_label {
+  color: var(--theme-gray);
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.75rem;
+  width: 34%;
+}
+
+.expert_caseDetailsTable_value {
+  padding: 0.75rem 0;
+  width: 66%;
+}
+
+.expert_caseDetailsTable_select {
+  border-radius: 4px;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  color: var(--theme-blue);
+  transition: all 0.3s ease-in-out;
+}

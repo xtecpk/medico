@@ -1,0 +1,18 @@
+.user_caseDetailsTable {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.user_user_caseDetailsTable_label {
+  color: var(--theme-gray);
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.75rem;
+  width: 34%;
+}
+
+.user_user_caseDetailsTable_value {
+  padding: 0.75rem 0;
+  width: 66%;
+}

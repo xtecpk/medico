@@ -1,0 +1,102 @@
+.cta-bg{
+  background-color: #2F4058;
+  box-shadow: 0px 5px 30px 0px rgba(73, 73, 73, 0.432);
+}
+
+.cta-container{
+    margin: 70px 0px;
+    padding: 100px 50px;
+    border-radius: 18px;
+    background-color: #2F4058;
+}
+
+.cta-heading h1{
+  color: white;
+}
+
+.cta-btn{
+    margin-top: 50px;
+}
+
+.cta-btn-signup-link{
+    padding: 13px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.cta-btn-signup-link:hover{
+    color: #2F4058;
+    border: 2px solid #2F4058;
+    background-color: white;
+}
+
+
+@media (max-width: 576px) {
+    .cta-container{
+      width: 100%;
+      padding: 50px 10px;
+      border-radius: 15px;
+    }
+  
+    .cta-heading h1{
+      font-size: 24px;
+    }
+  
+  }
+  
+  /* Styles for medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .cta-container{
+        width: 100%;
+        padding: 50px 10px;
+        border-radius: 15px;
+    }
+    
+    .cta-heading h1{
+      font-size: 28px;
+    }
+
+  }
+  
+  /* Styles for large devices (small laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .cta-container{
+        width: 90%;
+        padding: 70px 20px;
+        border-radius: 15px;
+    }
+    
+    .cta-heading h1{
+      font-size: 32px;
+    }
+  }
+  
+  /* Styles for extra-large devices (laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .cta-container{
+        width: 80%;
+        padding: 80px 30px;
+        border-radius: 15px;
+      }
+    
+      .cta-heading h1{
+        font-size: 36px;
+      }
+  }
+  
+  /* Styles for extra-extra-large devices (large desktops) */
+  @media (min-width: 1201px) {
+    .cta-container{
+        width: 70%;
+        padding: 100px 50px;
+        border-radius: 15px;
+      }
+    
+      .cta-heading h1{
+        font-size: 40px;
+      }
+  }

@@ -1,0 +1,20 @@
+.user_chatMessageBox {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  position: absolute;
+  top: 4.8rem;
+  bottom: 4.5rem;
+  padding-top: 1rem;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.user_chatMessageBox> :first-child {
+  margin: auto;
+}
+
+.user_chatMessageBox> :first-child.user_chatMessageItem {
+  margin: auto 0 0 0;
+}

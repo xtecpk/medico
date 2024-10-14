@@ -1,0 +1,195 @@
+.benefits-outer-container {
+  display: block;
+  width: 100vw;
+  margin-top: 100px;
+}
+
+.benefit-image {
+  opacity: 0;
+}
+
+.benefit-image.animate-left {
+  animation: fadeOutLeft 0.75s ease-in-out;
+  opacity: 1;
+}
+
+.benefit-text {
+  opacity: 0;
+}
+
+.benefit-text.animate-up {
+  animation: fadeOutUp 0.75s ease-in-out;
+  opacity: 1;
+}
+
+
+
+/* Styles for small devices (mobile phones) */
+@media (max-width: 576px) {
+  .benefits-container {
+    width: 100%;
+  }
+
+  .benefit-item {
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .benefit-item.reverse {
+    flex-direction: column;
+  }
+
+  .benefit-heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .benefit-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+  .benefit-text {
+    width: 90%;
+  }
+
+  .benefit-image {
+    width: 90%;
+  }
+
+  .benefit-image img {
+    width: 100%;
+  }
+
+}
+
+.benefit-image img {
+  width: 100%;
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .benefits-container {
+    width: 100%;
+  }
+
+  .benefits-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .benefit-heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .benefit-subheading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+  .benefit-text {
+    width: 90%;
+  }
+
+  .benefit-item {
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+
+  .benefit-item.reverse {
+    flex-direction: column;
+  }
+
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .benefits-container {
+    width: 100%;
+  }
+
+  .benefits-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    width: 90%;
+  }
+
+  .benefit-item {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .benefit-item.reverse {
+    flex-direction: row-reverse !important;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .benefits-container {
+    width: 90%;
+  }
+
+  .benefits-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    width: 80%;
+  }
+
+  .benefit-item {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .benefit-item.reverse {
+    flex-direction: row-reverse !important;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .benefits-container {
+    width: 80%;
+  }
+
+  .benefits-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 70%;
+  }
+
+  .benefit-item {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .benefit-item.reverse {
+    flex-direction: row-reverse !important;
+  }
+
+
+  .benefit-text {
+    width: 40%;
+  }
+
+  .benefit-heading {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .benefit-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}

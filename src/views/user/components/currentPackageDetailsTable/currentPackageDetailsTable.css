@@ -1,0 +1,11 @@
+.user_current_package_details_table__key {
+  color: var(--theme-gray);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.current_package_details_table__value {
+  font-size: 0.875rem;
+  max-width: 70ch;
+}

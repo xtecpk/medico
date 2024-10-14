@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+body {
+    /* font-family: 'Almarai', sans-serif; */
+
+    color: #2F4058;
+
+}
+
+.araibicFont {
+    font-family: "Almarai", sans-serif !important;
+}
+
+.engFont {
+    font-family: 'Almarai', sans-serif !important;
+}
+
+/* * {
+    font-family: "Assistant", sans-serif !important;
+} */

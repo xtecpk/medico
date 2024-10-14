@@ -1,0 +1,31 @@
+.user_chatSearchbar_div {
+  background-color: var(--theme-gray-light2);
+  padding: .375rem .75rem;
+  position: relative;
+  border-radius: 0.4rem;
+  display: flex;
+}
+
+.user_chatSearchbar_div>input {
+  font-size: 0.875rem;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-weight: 500;
+}
+
+.user_chatSearchbar_div__icon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.user_chatSearchbar_div_ar .user_chatSearchbar_div__icon {
+  left: 0.75rem;
+  right: unset;
+}
+
+.user_chatSearchbar_div>input::placeholder {
+  color: var(--theme-gray);
+}

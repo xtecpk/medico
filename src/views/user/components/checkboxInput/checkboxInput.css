@@ -1,0 +1,15 @@
+.checkbox_input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--theme-blue);
+}
+.checkbox_input > label {
+  user-select: none;
+}
+.checkbox_input_upload {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: var(--theme-blue);
+}

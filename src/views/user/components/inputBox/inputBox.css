@@ -1,0 +1,39 @@
+.user_input_box {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.user_input_box>label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+}
+
+.user_input_box>input,
+.user_input_box>textarea,
+.user_input_box>select {
+  font-size: 0.875rem;
+  color: var(--theme-blue);
+  border: 1px solid var(--theme-blue);
+  border-radius: 0.4rem;
+  background-color: transparent;
+}
+
+.user_input_box>textarea {
+  resize: vertical;
+  padding: .5rem .75rem;
+}
+
+.user_input_box>input {
+  padding: .5rem .75rem;
+}
+
+.user_input_box>select {
+  padding: .6rem .75rem;
+}
+
+.user_input_box_disabled>input {
+  background-color: var(--theme-gray-light);
+}

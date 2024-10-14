@@ -1,0 +1,26 @@
+.expert_ticketDetails {
+  height: 100%;
+  padding: 2.5rem 2.5rem 7rem 2.5rem;
+  overflow-y: auto;
+}
+
+.expert_ticketDetails__table_div {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.expert_ticketDetails__experts_display {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .expert_ticketDetails {
+    padding: 2.5rem;
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "Header": {
+    "Home": "Home",
+    "ContactUs": "Contact Us",
+    "Blogs": "Blogs",
+    "Services": "Services",
+    "SignIn": "Sign In",
+    "SignUp": "Sign Up",
+    "ForgotPassword": "Forgot Password"
+  },
+  "Footer": {
+    "FollowUs": "Follow Us"
+  },
+  "Home": {
+    "Hero": {
+      "HeroHeading1": "RASAN PLATFORM",
+      "HeroHeading2": " FOR LEGAL PROTECTION AGAINST MEDICAL MALPRACTICE  ",
+      "HeroSubheading": "ANNUAL MEMBERSHIP TO PROVIDE SPECIALIZED LEGAL SERVICES"
+    },
+    "Benefits": {
+      "BenefitsHeading": "CONSULTING, ADVOCACY AND LEGAL REPRESENTATION",
+      "Benefit": [
+        {
+          "Heading": "Our Goal",
+          "Subheading": "is to provide legal services to healthcare practitioners of all specialties and positions in the Kingdom of Saudi Arabia. We aim to save time, effort, and money by creating this platform, which facilitates easy communication with us. Through this platform, we offer legal advice to members and cover all their medical malpractice-related issues. We also handle the management and follow-up of these cases. Our objective is to represent and defend members before all courts and specialized committees."
+        },
+        {
+          "Heading": "Our Specialty ",
+          "Subheading": "Our professional expertise begins with providing legal advice to members and extends to representing them in defense and advocacy, presenting objections and appeals before administrative investigation committees, as well as before all relevant courts. Our services also include pursuing claims against insurance companies through dispute resolution committees for coverage of medical malpractice, if necessary."
+        },
+        {
+          "Heading": "Our Membership",
+          "Subheading": "Membership on the platform is divided into four categories based on the healthcare practitioner's specialization. Each category has two types of membership:",
+          "Membership": {
+            "Heading1": "1. Basic Protection Membership:",
+            "Deascription1": "Our services for members with this type of membership are limited to representing them before the relevant courts (General Court).",
+            "Heading2": "2. Full Protection Membership:",
+            "Deascription2": "Our services for members with this type of membership encompass representing them in their cases before the relevant courts (General Court), as well as before dispute resolution committees for insurance disputes."
+          }
+        }
+      ]
+    },
+    "Testimonial": {
+      "Heading": "What Our Clients Say",
+      "Subheading": "Discover the stories and experiences of our valued clients. Hear firsthand how our dedicated legal services have made a positive impact in their lives. At [Company Name], we take pride in delivering reliable and effective legal assistance.",
+      "testimonials": [
+        {
+          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": "John Doe"
+        },
+        {
+          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": "Nepoleon Hill"
+        },
+        {
+          "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "author": "AJ Doe"
+        }
+      ]
+    },
+    "CallToAction": {
+      "Heading": "Sign up today to experience the premium services that will transform the way you manage Cases",
+      "ButtonText": "Sign Up",
+      "Send": "Send"
+    }
+  },
+  "Services": {
+    "Hero": {
+      "Heading": "Navigating the complexities of legal matters with expertise and integrity.",
+      "Subheading": "Empowering Your Legal Journey: Where Trusted Counsel Meets Tailored Solutions for Every Challenge. Our commitment to excellence in navigating the intricate landscape of legal affairs ensures that you receive not only expert guidance but also personalized strategies that safeguard your interests and pave the way for success. Experience the confidence that comes from having a dedicated partner on your side, advocating with integrity and precision at every step of your legal endeavors."
+    }
+  },
+  "ContactUs": {
+    "ContactUsHeading": "Contact Us",
+    "Heading": "Your legal ally, navigating the complexities of justice for a brighter tomorrow.",
+    "Placeholders": {
+      "FirstName": "First Name",
+      "LastName": "Last Name",
+      "Email": "Email",
+      "Adress": "Adsress",
+      "Phone": "Phone Number",
+      "Message": "Message"
+    },
+    "Send": "Send"
+  },
+  "SignIn": {
+    "CompanyInfo": {
+      "DetailsTitle": "Our Membership",
+      "DetailsIntro": "Membership on the platform is divided into four categories based on the healthcare practitioner's specialization. Each category has two types of membership:",
+      "Details1Title": "1. Basic Protection Membership: ",
+      "Details1": "We represent your case and the necessary defense procedures in the GENERAL COURT including preparation of documents and attending the court sessions",
+      "Details2Title": "2. Full Protection Membership: ",
+      "Details2": "Full coverage and support for your case and the necessary defense procedures in the GENERAL COURT, Committees for resolving INSURANCE DISPUTES and Violations",
+      "Contact": "Contact"
+    },
+    "Heading": "Sign In",
+    "Subheading": "Welcome back, please login to your account",
+    "Placeholders": {
+      "PhoneNo": "Phone Number",
+      "Password": "Password"
+    },
+    "SignIn": "Sign In",
+    "Prompt": "Don't have an account?",
+    "PromptLink": "create new account",
+    "Errors": {
+      "InvalidCredentials": "Invalid Phone Number or Password",
+      "FillAllFields": "Please fill in all the fields",
+      "PhoneNoNotRegistered": "Phone Number not registered",
+      "InvalidPassword": "Password must be atleast 8 characters long",
+      "InvalidPhoneNUmber": "Invalid Phone Number",
+      "InvalidNationalId": "Invalid National Id"
+    }
+  },
+  "SignUp": {
+    "CompanyInfo": {
+      "Contact": "Contact"
+    },
+    "Heading": "Sign Up Now",
+    "Subheading": "Welcome, please create your account",
+    "Placeholders": {
+      "FullName": "Full Name",
+      "PhoneNo": "Phone Number",
+      "Email": "Email",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm Password",
+      "Profession": "Profession",
+      "Doctor": "Doctor",
+      "Adress": "Address",
+      "Surgeon": "Surgeon",
+      "PlasticAndCosmesis": "Plastic and Cosmesis",
+      "Dermatology": "Dermatology",
+      "AdressLine": "Address Line",
+      "City": "City",
+      "State": "State",
+      "Zip": "Zip",
+      "Country": "Country",
+      "Done": "Done",
+      "Aneasthesia": "Aneasthesia",
+      "ObstetricAndGynacology": "Obstetric and Gynacology",
+      "EmergencyMedicine": "Emergency medicine",
+      "NonSurgeon": "Non Surgeon",
+      "NonDoctor": "Non Doctor Medical Professional",
+      "ExistingCourtCase": "Any Existing Court Case",
+      "Yes": "Yes",
+      "No": "No"
+    },
+    "DoctorType": "Select Doctor Type",
+    "SurgeonType": "Do you belong to this group?",
+    "Next": "Next",
+    "Back": "Back",
+    "SignUp": "Sign Up",
+    "Prompt": "Already have an account?",
+    "PromptLink": "Sign In",
+    "TermsAndConditions": "Terms and Conditions",
+    "TermsAndConditionsText": "Draw your signature digitally or upload a picture of your signature confirming you are agree to our terms and conditions.",
+    "AgreeAndSubmit": "Agree and Submit",
+    "SetUpCard": "Setup your credit or Mada card",
+    "CreditCard": "Credit Card",
+    "MadaCard": "Mada Card",
+    "CardNumber": "Card Number",
+    "ExpirationDate": "Expiration Date",
+    "Subtotal": "Subtotal",
+    "PromoCode": "Promo Code",
+    "Apply": "Apply",
+    "Total": "Total",
+    "SAR": "SAR",
+    "Year": "Year",
+    "ChangePackage": "Change Package",
+    "TermsAndPolicyText": "By checking the checkbox below, you agree to our ",
+    "TermsOfUse": "Terms of Use",
+    "PrivacyStatement": "Privacy Statement",
+    "IAgree": "I agree",
+    "Submit": "Submit",
+    "Errors": {
+      "FillAllFields": "Please fill in all the fields",
+      "InvalidPhoneNUmber": "Invalid Phone Number",
+      "PasswordMismatch": "Passwords do not match",
+      "EmailAlreadyExists": "Email already exists",
+      "NationalIDAlreadyExists": "National ID already exists",
+      "PhoneNoAlreadyExists": "Phone Number already exists",
+      "InvalidPassword": "Password must be atleast 8 characters long",
+      "InvalidProfession": "Please select a profession",
+      "InvalidDoctorType": "Please select a doctor type",
+      "InvalidExistingCourtCase": "Please select an option",
+      "InvalidSurgeonType": "Please select an option",
+      "UploadSignatureError": "Please upload a signature",
+      "or": "OR",
+      "DrawSignature": "Draw Signature",
+      "Close": "Close",
+      "Clear": "Clear",
+      "SignUploaded": "Signature Uploaded"
+    }
+  },
+  "Verification": {
+    "OTPVerification": "OTP Verification",
+    "EnterOTP": "Please enter the OTP sent to your email",
+    "ResendOTP": "Resend OTP",
+    "VerifyOTP": "Verify"
+  },
+  "MeetSetup": {
+    "Heading": "Setup Meet with Officals",
+    "Subheading": "Meeting time will be communicated through email",
+    "Placeholders": {
+      "FullName": "Full Name",
+      "Email": "Email",
+      "PhoneNumber": "Phone Number",
+      "PreferredDate": "Preferred Date"
+    },
+    "Send": "Send",
+    "Errors": {
+      "FillAllFields": "Please fill in all the fields",
+      "InvalidPhoneNUmber": "Invalid Phone Number",
+      "InvalidEmail": "Invalid Phone Number"
+    }
+  },
+  "SignUpServices": {
+    "Heading": "Choose the plan that’s right for you",
+    "Subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "ServicesType": {
+      "Surgeon": "Surgeon Doctor",
+      "NonSurgeon": "Non Surgeon Doctor",
+      "NonDoctor": "Non Doctor Medical Professional"
+    },
+    "Type": "Type",
+    "Next": "Next"
+  },
+  "Credit": {
+    "Heading": "Setup your credit or Mada card",
+    "Placeholders": {
+      "CardNumber": "Card Number",
+      "ExpiryDate": "Expiry Date",
+      "CVV": "CVV"
+    },
+    "Pay": "Pay",
+    "Errors": {
+      "FillAllFields": "Please fill in all the fields",
+      "InvalidCardNumber": "Invalid Card Number",
+      "InvalidExpiryDate": "Invalid Expiry Date",
+      "InvalidCVV": "Invalid CVV",
+      "InvalidPromo": "Invalid Promo code",
+      "PromoAplied": "Promo Already Applied",
+      "InvalidCardType": "Please select an option",
+      "Agreed": "Please agree to the terms and conditions"
+    }
+  },
+  "UserPanel": {
+    "Sidebar": {
+      "Packages": "Packages",
+      "Cases": "Cases",
+      "Chat": "Chat",
+      "Support": "Support",
+      "Billing": "Billing",
+      "Profile": "Profile",
+      "Experts": "Experts",
+      "Admin": "Admin"
+    },
+    "UserPicCard": {
+      "Logout": "Logout",
+      "EditProfile": "Edit Profile"
+    },
+    "Home": {
+      "Heading": "USER PANEL",
+      "InvalidFileType": "Invalid file type. Please select a .png, .jpg, or .pdf file."
+    },
+    "Packages": {
+      "CurrentPackage": "Current Package",
+      "PackageDetails": "Package Details",
+      "AvailablePackages": "Available Packages",
+      "Name": "Name",
+      "Description": "Description",
+      "Year": "Year",
+      "packageNotPurchased": "You've not Purchased any Package yet",
+      "Amount": "Amount",
+      "DateOfContract": "Date of Contract",
+      "DateOfExpiry": "Date of Expiry",
+      "TimeRemaining": "Time Remaining",
+      "ContractWithoutVal": "Contract value without VAT",
+      "ContractWithVat": "Contract value with VAT",
+      "ContactUs": "Contact Us",
+      "ClickToUploadDocument": "Click to upload document + (only .pdf, .png & .jpg)",
+      "ExtendPackage": "Extend Package",
+      "BuyPackage": "Buy Package",
+      "BankPayment": "Bank Payment",
+      "CardPayment": "Card Payment"
+    },
+    "Cases": {
+      "Name": "Title",
+      "Type": "Type",
+      "Id": "ID",
+      "Experts": "Experts",
+      "Cases": "Cases",
+      "AddNewCase": "Add new case",
+      "Filter": "Filter",
+      "Search": "Search",
+      "Status": "Status",
+      "All": "All",
+      "New": "New",
+      "Open": "Open",
+      "UnderReview": "Under Review",
+      "InProgress": "In Progress",
+      "Closed": "Closed",
+      "Won": "Won",
+      "Lost": "Lost",
+      "NoExperts": "No Experts Found",
+      "Description": "Description",
+      "ExistingCases": "Existing Cases",
+      "NoCasesFound": "No cases found",
+      "RecordsPerPage": "Records / page",
+      "AddNewCasePage": {
+        "CaseDetails": "Case Details",
+        "Documents": "Documents",
+        "ExistingCourtCases": "Existing court cases",
+        "NonExistingCourtCases": "Non Existing court cases",
+        "Name": "Name",
+        "Type": "Type",
+        "Description": "Description",
+        "Status": "Status",
+        "AdditionalNotes": "Additional Notes",
+        "SCFHSCopy": "Copy of SCFHS Registration",
+        "MedicalCopy": "Copy of Medical Malpractice Insurance",
+        "GovernmentId": "Government ID",
+        "NationalAddress": "National Address",
+        "AddNationalAddress": "Add National Address",
+        "PleaseUpload": "Please upload all documents",
+        "Upload": "Upload",
+        "Submit": "Submit",
+        "User": "USER",
+        "PublicCourt": "Public Court",
+        "NameOfTheCase": "Name of the case",
+        "DescriptionOfTheCase": "Description of the case",
+        "New": "New",
+        "Notes": "Notes",
+        "Cancel": "Cancel",
+        "Agreement": "Agreement",
+        "Signature": "Signature",
+        "UploadDigitalSignature": "+ Upload Digital Signature",
+        "ClickToUploadDocument": "Click to upload document + (only .pdf, .png & .jpg)",
+        "ClickToUploadDocument1": "Click to upload document + (only .png & .jpg)",
+        "AgreementText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      "CaseDetailsPage": {
+        "CaseDetails": "Case Details",
+        "Case": "Case",
+        "EditRequest": "Edit request",
+        "Update": "Update",
+        "AddExpert": "Add expert",
+        "AddRequest": "Add request",
+        "Cancel": "Cancel",
+        "Request": "Request",
+        "Delete": "Delete",
+        "RemovalRequest": "Removal request",
+        "RemovalRequestMsg": "Are you sure you want to remove this expert?",
+        "DeleteConfirmation": "Delete confirmation",
+        "DeleteConfirmationMsg": "Are you sure you want to delete this document?"
+      }
+    },
+    "Chat": {
+      "Experts": "Experts",
+      "Cases": "Cases",
+      "Admin": "Admin",
+      "Tickets": "Tickets",
+      "CreateTicket": "Create a Ticket",
+      "TicketDetails": "Ticket Details",
+      "LastMessage": "Last message",
+      "TypeAMessage": "Type a message...",
+      "ChatMembers": "Chat memebers",
+      "Subject": "Subject",
+      "Description": "Description",
+      "Status": "Status",
+      "New": "New",
+      "Document": "Document",
+      "Upload": "Upload",
+      "NoMessagesToDisplay": "No messages to display",
+      "NoDocFound": "No Documents Found",
+      "NoExpertsInTicket": "No Experts Exist in this Ticket",
+      "NoChatFound": "No Chats Found",
+      "NoChatMembers": "No Chat Members"
+    },
+    "Billing": {
+      "CurrentBillingChannel": "Current Billing Channel",
+      "BillingHistory": "Billing History",
+      "DaysLeftBeforeExpireMsg": "Days Left before the membership expires",
+      "MadaCard": "Mada Card",
+      "ChangeOption": "Change Option",
+      "BankTransfer": "Bank Transfer",
+      "CreditCard": "Credit Card",
+      "MakePayment": "Make Payment",
+      "AccountNumber": "Account Number",
+      "CVV": "CVV",
+      "SaveChanges": "Save Changes",
+      "TransactionId": "Transaction ID",
+      "PaymentId": "Payment ID",
+      "PyamentDate": "Payment Date",
+      "TransactionDate": "Transaction Date",
+      "ClientId": "Client ID",
+      "ClientName": "Client Name",
+      "Submit": "Submit",
+      "ExpireWarning": "Your payment has expired. Please make payment to proceed with the cases.",
+      "SuccessMessage": "Thank you for your payment! Your transaction is currently under review by our administrative team. We appreciate your patience and will notify you promptly once the payment has been approved.",
+      "ContractId": "Contract ID",
+      "Name": "Name",
+      "Type": "Type",
+      "Year": "Year",
+      "Date": "Date",
+      "Amount": "Amount",
+      "PaymentMethod": "Payment Method",
+      "Invoice": "Bank Invoice",
+      "BankPaid": "Bank Paid"
+    },
+    "Profile": {
+      "UserProfile": "User Profile",
+      "PersonalInformation": "Personal Information",
+      "ProfilePicture": "Profile Picture",
+      "AccountCredentials": "Account Credentials",
+      "Name": "Name",
+      "YearsOfExperience": "Years of Experience",
+      "Speciality": "Speciality",
+      "ContactInformation": "Contact Information",
+      "Email": "Email",
+      "PhoneNo": "Phone No",
+      "NationalID": "National ID Number",
+      "NationalAddress": "National Address",
+      "SaveChanges": "Save Changes",
+      "RequestEdit": "Request to Edit",
+      "SCFHSCopy": "Copy of SCFHS Registration",
+      "MedicalCopy": "Copy of Medical Malpractice Insurance",
+      "GovernmentId": "Government ID",
+      "Passport": "Passport",
+      "NationalAddressProof": "National Address Proof",
+      "Agreement": "Agreement",
+      "Password": "Password",
+      "Upload": "Upload",
+      "Download": "Download",
+      "ChangePassword": "Change Password",
+      "OTPVerification": "OTP Verification",
+      "OTPVerificationInfo": "We have sent a verification code to your Email",
+      "Submit": "Submit",
+      "EnterNewPassword": "Enter New Password",
+      "Change": "Change",
+      "PasswordErrorMessage": "Password must contain at least 8 characters, including a letter, a number and a symbol.",
+      "PasswordChangedSuccessMessage": "Password changed successfully"
+    }
+  }
+}

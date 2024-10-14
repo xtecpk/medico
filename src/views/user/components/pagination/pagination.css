@@ -1,0 +1,25 @@
+.pagination_radio_label {
+  color: var(--theme-blue);
+  border-radius: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pagination_radio_label-checked {
+  color: #fff;
+  background-color: var(--theme-blue);
+}
+
+.pagination_radio_label>input {
+  display: none;
+}
+
+.pagination_left_btn,
+.pagination_right_btn {
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,31 @@
+.pdf_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: .4rem .8rem;
+}
+
+.pdf_div .pdf_name {
+  font-size: 0.75rem;
+  color: var(--theme-blue);
+  margin: 0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.pdf_div span {
+  font-size: 0.5rem;
+  font-weight: 500;
+  color: var(--theme-gray);
+}
+
+.pdf_div button {
+  background-color: transparent;
+  border: none;
+  margin: 0 0 0 auto;
+}
+
+.pdf_div_ar button {
+  margin: 0 auto 0 0;
+}

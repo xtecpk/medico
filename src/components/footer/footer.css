@@ -1,0 +1,104 @@
+
+.footer-container{
+    margin: 10px;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+
+.arrow-up{
+    transform: rotate(180deg);
+}
+
+
+
+/* Styles for small devices (mobile phones) */
+
+
+@media (max-width: 576px) {
+    .footer-container{
+      width: 100%;
+    }
+  
+    .company-address{
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .footer-contacts .phone-no, .footer-contacts .email{
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+  }
+  
+  /* Styles for medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .footer-container{
+      width: 100%;
+    }
+  
+    .company-address{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .footer-contacts .phone-no, .footer-contacts .email{
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+  }
+  
+  /* Styles for large devices (small laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .footer-container{
+      width: 90%;
+    }
+  
+    .company-address{
+        font-size: 18px;
+        font-weight: 400;
+    } 
+
+    .footer-contacts .phone-no, .footer-contacts .email{
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+  }
+  
+  /* Styles for extra-large devices (laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+     .footer-container{
+      width: 80%;
+    }
+  
+    .company-address{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .footer-contacts .phone-no, .footer-contacts .email{
+        font-size: 22px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+  }
+  
+  /* Styles for extra-extra-large devices (large desktops) */
+  @media (min-width: 1201px) {
+    .footer-container{
+      width: 70%;
+    }
+  
+    .company-address{
+        font-size: 20px;
+        font-weight: 400;
+    }
+  
+    .footer-contacts .phone-no, .footer-contacts .email{
+        font-size: 22px;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+  }

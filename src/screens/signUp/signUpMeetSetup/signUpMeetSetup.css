@@ -1,0 +1,36 @@
+
+.meet-setup-container{
+    margin-top: 100px;
+}
+
+.meet-setup-heading{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.meet-setup-subheading{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.meet-setup-input{
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid var(--theme-blue);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.meet-setup-btn{
+    background-color: var(--theme-blue);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.meet-setup-btn:hover{
+    background-color: var(--theme-blue);
+    color: white;
+}

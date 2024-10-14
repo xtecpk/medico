@@ -1,0 +1,75 @@
+.messagesBox {
+  max-width: 500px;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  min-width: 500px;
+}
+
+.notification_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification_bell {
+  position: relative;
+  cursor: pointer;
+}
+
+.notications_count {
+  background-color: var(--theme-blue);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  min-height: 25px;
+  min-width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  text-align: center;
+}
+
+.notications_count p {
+  margin: 0;
+  padding-left: 2px;
+  text-align: center;
+}
+.read_icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.notification_info {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d2d0d0;
+  margin-bottom: 0px;
+}
+
+.notification_info:hover {
+  background-color: #ededf3;
+}
+
+.isRead {
+  opacity: 40%;
+}
+
+.notification_details {
+  width: 75%;
+}
+
+.notification_time p {
+  margin: 0;
+  text-align: right;
+  font-size: 14px;
+}
+
+@media (max-width: 580px) {
+  .messagesBox {
+    min-width: 280px;
+  }
+}

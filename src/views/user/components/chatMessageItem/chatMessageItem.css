@@ -1,0 +1,67 @@
+.user_chatMessageItem {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.user_chatMessageItem__sender_label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--theme-blue);
+  background-color: var(--theme-gray-light);
+  border-radius: 2rem;
+}
+
+.user_chatMessageItem__sender_label>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.user_chatMessageItem__message_div {
+  width: 80%;
+  background-color: #2F405808;
+  color: var(--theme-blue);
+  padding: .5rem .75rem;
+  font-size: .75rem;
+  border-radius: .75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_chatMessageItem__message_div--mine {
+  margin-left: auto;
+  background-color: #68A7FF21;
+}
+
+.user_chatMessageItem_ar .user_chatMessageItem__message_div--mine {
+  margin-right: auto;
+  margin-left: unset;
+}
+
+.user_chatMessageItem__text {
+  word-break: break-word;
+}
+
+.user_chatMessageItem__time {
+  color: var(--theme-gray);
+  margin-left: auto;
+}
+
+.user_chatMessageItem_ar .user_chatMessageItem__time {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .user_chatMessageItem {
+    gap: 1rem;
+  }
+
+  .user_chatMessageItem__message_div {
+    width: 60%;
+  }
+}

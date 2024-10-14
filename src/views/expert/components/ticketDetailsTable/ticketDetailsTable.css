@@ -1,0 +1,41 @@
+.expert_ticketDetailsTable {
+  width: 100%;
+}
+
+.expert_ticketDetailsTable_label {
+  color: var(--theme-gray);
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .7rem 1rem .7rem 0;
+  width: 34%;
+}
+
+.expert_ticketDetailsTable_value {
+  padding: .7rem 0 .7rem 1rem;
+  width: 66%;
+}
+
+.expert_ticketDetailsTable_statusSelect {
+  padding: .3rem .5rem;
+  border-radius: .5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .ticketDetailsRow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ticketDetailsRow td {
+    width: 100%;
+  }
+
+  .ticketDetailsRow .expert_ticketDetailsTable_value {
+    padding-left: 0 !important;
+  }
+}

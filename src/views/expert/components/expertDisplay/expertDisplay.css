@@ -1,0 +1,27 @@
+.expert_expertDisplay {
+  box-shadow: 0px 2px 4px 0px #B4B4B440;
+  border-radius: .5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.expert_expertDisplay>h5 {
+  font-size: 0.875rem;
+  color: var(--theme-blue);
+}
+
+.expert_expertDisplay>h6 {
+  font-size: 0.75rem;
+  color: var(--theme-gray);
+}
+
+.expert_expertDisplay>button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .75rem;
+}

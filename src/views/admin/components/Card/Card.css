@@ -1,0 +1,65 @@
+.dataCard {
+    box-shadow: 4px 4px 20px 0px #F5F5F5, 6px 6px 20px 0px #BFC0C2;
+    background-color: #fff;
+    border-radius: 1.125rem;
+    padding: 1rem 2rem;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: none;
+    color: var(--theme-blue);
+    /* min-width: 250px; */
+}
+
+.dataCard h1 {
+    font-weight: 700;
+}
+
+.dataCard p {
+    font-weight: 500 !important;
+}
+
+.dataCard p,
+.dataCard span {
+    color: #5C6D85;
+}
+
+.nameBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.nameBox .imgBox {
+    width: 20%;
+    margin-right: 7px;
+}
+
+.nameData {
+    width: 80%;
+}
+
+.nameData p {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.progressBar {
+    width: 100%;
+    height: 7px;
+    border-radius: 6px;
+    background-color: #F6F6F6;
+}
+
+.progressValue {
+    height: 100%;
+    border-radius: 6px;
+    background-color: #2F4058;
+}
+
+.imgBox img {
+    width: 90%;
+    height: 90%;
+}

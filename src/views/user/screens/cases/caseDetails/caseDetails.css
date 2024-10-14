@@ -1,0 +1,108 @@
+.user_caseDetails_outer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.user_caseDetails__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_caseDetails__experts_div__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.user_caseDetails__right {
+  padding: 1.5rem 0 0 0;
+  border-top: 2px solid var(--theme-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.user_caseDetails__cases_div {
+  padding: 0 0 1.5rem 0;
+}
+
+.user_caseDetails__case_div--edit {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.user_caseDetails__cases_div__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_caseDetails__experts_div {
+  padding: 1.5rem 0;
+  border-top: 2px solid var(--theme-gray);
+}
+
+.user_caseDetails__right h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--theme-gray);
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .user_caseDetails__experts_div__inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .user_caseDetails__cases_div__header {
+    grid-column: span 2;
+  }
+
+  .user_caseDetails__case_div--edit {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .user_caseDetails__card {
+    flex-direction: row;
+  }
+
+  .user_caseDetails__left {
+    width: 66%;
+  }
+
+  .user_caseDetails__cases_div {
+    padding: 0 1.5rem 1.5rem 0;
+  }
+
+  .user_caseDetails_outer_ar .user_caseDetails__cases_div {
+    padding: 0 0 1.5rem 1.5rem;
+  }
+
+  .user_caseDetails__experts_div {
+    padding: 1.5rem 1.5rem 0 0;
+  }
+
+  .user_caseDetails_outer_ar .user_caseDetails__experts_div {
+    padding: 1.5rem 0 0 1.5rem;
+  }
+
+  .user_caseDetails__right {
+    width: 34%;
+    padding: 0 0 0 1.5rem;
+    border-left: 2px solid var(--theme-gray);
+    border-top: none;
+  }
+
+  .user_caseDetails_outer_ar .user_caseDetails__right {
+    padding: 0 1.5rem 0 0;
+    border-right: 2px solid var(--theme-gray);
+    border-left: none;
+  }
+}

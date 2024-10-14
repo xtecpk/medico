@@ -1,0 +1,48 @@
+.expert_chatMain__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #E9E9E9;
+  padding: 1rem;
+}
+
+.expert_chatMain__header--tickets {
+  display: flex;
+}
+
+.expert_chatMain__header__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.expert_chatMain__header__left>img {
+  width: 2rem;
+}
+
+
+.expert_chatMain__bars_btn {
+  background-color: unset;
+  border: none;
+  border-radius: .5rem;
+  padding: .25rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .expert_chatMain__header {
+    padding: 1rem 1.5rem;
+  }
+
+  .expert_chatMain__header--tickets {
+    display: none;
+  }
+
+  .expert_chatMain__header__left>img {
+    width: 2.5rem;
+  }
+
+
+  .expert_chatMain__bars_btn {
+    display: none;
+  }
+}

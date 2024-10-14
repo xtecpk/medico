@@ -1,0 +1,34 @@
+
+
+.page-not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-not-found img{
+    width: 50%;
+}
+
+
+@media (max-width: 576px) {
+    .page-not-found img{
+        width: 80%;
+    }
+  }
+  
+  /* Styles for medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .page-not-found img{
+        width: 70%;
+    }
+  }
+  
+  /* Styles for large devices (small laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .page-not-found img{
+        width: 60%;
+    }
+  }

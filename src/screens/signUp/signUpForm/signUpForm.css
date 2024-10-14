@@ -1,0 +1,256 @@
+.signup-container {
+  /* height: 100vh; */
+  min-height: 850px;
+  margin-top: 4rem;
+}
+
+.video_container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoClass {
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 90%;
+}
+
+.signup-form-inputs {
+  position: relative;
+}
+
+.company-description {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.passwordInput {
+  border-radius: 5px;
+  border: 1px solid #2f4058;
+}
+
+.passwordInput span {
+  cursor: pointer;
+  margin: auto 0.5rem;
+}
+
+.passwordInput input {
+  border: none !important;
+}
+
+.company-description p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.image-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-info {
+  height: 80%;
+  max-height: 600px;
+}
+
+.signup-form-title span {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.signup-form-title p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.signup-form-container {
+  width: 100%;
+  min-width: 300px;
+}
+
+.signup-form-input input {
+  border-radius: 5px;
+  border: 1px solid #2f4058;
+}
+
+.signup-form-input input:focus {
+  outline-style: none;
+}
+
+.signup-form-button button {
+  width: 100%;
+  color: white;
+  background-color: #2f4058;
+  border-radius: 5px;
+  border: 1px solid #2f4058;
+  height: 40px;
+}
+
+.signup-form-button button:hover {
+  color: #2f4058;
+  font-weight: 600;
+  background-color: white;
+}
+
+.signup-form-footer {
+  margin-top: 10px;
+}
+
+.signup-form-footer p {
+  font-size: 12px;
+}
+
+.signUpBox {
+  margin-top: 2rem;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
+
+.profession-type {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.profession-heading {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.social-media-icon div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-media-icon div img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .signup-container {
+    width: 100%;
+    padding: 50px 10px;
+    border-radius: 15px;
+    flex-direction: column;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 24px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 90%;
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .signup-container {
+    width: 100%;
+    padding: 50px 10px;
+    border-radius: 15px;
+    flex-direction: column;
+  }
+
+  .company-info {
+    display: none;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 28px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 90%;
+  }
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .signup-container {
+    width: 90%;
+    padding: 70px 20px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 32px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 80%;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .signup-container {
+    width: 80%;
+    padding: 80px 30px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 36px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 80%;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .signup-container {
+    width: 80%;
+    padding: 100px 50px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 40px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .signup-container {
+    flex-direction: column;
+  }
+  .video_container {
+    width: 100%;
+  }
+}
+@media (max-width: 769px) {
+  .signUpBox {
+    margin-top: 9rem;
+  }
+
+  .mid-logo {
+    display: none;
+  }
+}

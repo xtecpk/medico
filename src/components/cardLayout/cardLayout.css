@@ -1,0 +1,7 @@
+.cardLayout_card {
+  box-shadow: 4px 4px 20px 0px #F5F5F5, 6px 6px 20px 0px #BFC0C2;
+  background-color: #fff;
+  border-radius: 1.125rem;
+  padding: 2rem;
+  overflow: hidden;
+}

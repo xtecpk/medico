@@ -1,0 +1,60 @@
+.user_billingHistory_table {
+  width: 100%;
+  min-width: 32rem;
+}
+
+.user_billingHistory_table__head {
+  border-bottom: 1px solid var(--theme-blue);
+}
+
+.user_billingHistory_table__label {
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.user_billingHistory_table__row {
+  border-bottom: 1px solid var(--theme-gray);
+}
+
+.user_billingHistory_table__cell {
+  padding: 1rem;
+}
+
+.user_billingHistory_table__cell>button {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  color: #3573C9;
+}
+
+
+.user_billingHistory_table__cell_link {
+  color: var(--theme-blue);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.user_billingHistory_table__cell_link:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .user_billingHistory_table__label,
+  .user_billingHistory_table__cell,
+  .user_billingHistory_table__cell_link {
+    padding: 1rem .25rem;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .user_billingHistory_table__label,
+  .user_billingHistory_table__cell,
+  .user_billingHistory_table__cell_link {
+    padding: 1rem 1rem;
+  }
+}

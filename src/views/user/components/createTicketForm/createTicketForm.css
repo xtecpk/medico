@@ -1,0 +1,13 @@
+.user_createTicketForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.user_createTicketForm__h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+}

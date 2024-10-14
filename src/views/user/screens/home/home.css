@@ -1,0 +1,23 @@
+.user_home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user_home>h1 {
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 576px) {
+  .user_home>h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .user_home>h1 {
+    font-size: 6rem;
+  }
+}

@@ -1,0 +1,302 @@
+.user_base {
+  --theme-blue: #2F4058;
+  --theme-gray: #BFC0C2;
+  --theme-gray-light: #D9D9D9;
+  --theme-gray-light2: #F5F5F5;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.user_base_ar * {
+  direction: rtl;
+}
+
+.user_base_inner {
+  width: 100%;
+}
+
+.user_base_main {
+  padding: 6rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: unset;
+  position: relative;
+}
+
+.user_base_main_ar {
+  margin-right: auto;
+  margin-left: unset;
+}
+
+
+.barGraph {
+  width: 72%;
+}
+
+.user_bars_btn {
+  border: none;
+  background-color: #fff;
+  padding: 0.675rem 0.75rem;
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+  box-shadow: 4px 4px 20px 0px #0000001A,
+    0px 4px 4px 0px #00000040;
+  border-radius: 1.125rem;
+  z-index: 11;
+}
+
+.user_bars_btn_ar {
+  right: 1.5rem;
+  left: unset;
+}
+
+.user_base_main.user_main_full_width {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .user_base_main,
+  .user_base_main.user_main_full_width {
+    width: calc(100vw - (18rem + 3rem));
+  }
+
+  .user_bars_btn {
+    display: none;
+  }
+}
+
+.contract_summary {
+  display: flex;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.cards_box {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.blurTxt {
+  font-weight: 500;
+  color: #5C6D85;
+}
+
+.exp_progress {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.nameCardBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columnFlexBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  display: flex;
+  align-items: flex-end;
+}
+
+.barGraph {
+  width: 75%;
+}
+
+.flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contract_summary .flex_box {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contract_summary.casesBox {
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.allCases {
+  display: flex;
+  justify-content: flex-start !important;
+  margin-top: 1rem;
+}
+
+.exp_progress .flex_box {
+  justify-content: center !important;
+  margin-top: 2rem;
+}
+
+.memberActions button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.modal_head {
+  border-radius: 18px 18px 0 0;
+  width: 100%;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 1rem;
+  background-color: white;
+}
+
+.modal_body {
+  border-radius: 0 0 18px 18px;
+  width: 100%;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 1rem;
+  background-color: white;
+}
+
+.modal_head h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.space_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_createTicketForm .row {
+  width: 100%;
+  margin: 0;
+}
+
+.clntAvtar {
+  height: 70px;
+  width: 70px;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+#mid-line {
+  width: 1px;
+  height: 70px;
+  padding: 0;
+  border: 1px solid #BFC0C2;
+}
+
+.buttonsBox button {
+  margin-bottom: 1rem;
+}
+
+.headingBlur {
+  color: #BFC0C2;
+  font-weight: 700;
+}
+
+.tableinfo p {
+  font-size: 14px;
+}
+
+.cards_row {
+  font-size: 14px;
+}
+
+.cards_row h6 {
+  font-weight: 600;
+  color: #2F4058;
+}
+
+.statusBox {
+  background-color: #F5F5F5;
+  color: #BFC0C2;
+  padding: 0.2rem 1rem;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+a {
+  display: contents;
+  text-decoration: none;
+}
+
+.status_color {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.support_light_txt {
+  width: 50%;
+  color: #BFC0C2;
+  font-weight: 500;
+}
+
+.flex-direction-column {
+  flex-direction: column !important;
+}
+
+.expert_cards_box p {
+  margin: 0;
+}
+
+.expert_cards_box h4 {
+  margin-bottom: 2rem;
+}
+
+.expert_cards_box .col-lg-6 {
+  min-width: 270px;
+}
+
+select {
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.expert_cards_box img {
+  cursor: pointer;
+}
+
+.cardsRow {
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.record_row {
+  border-bottom: 1px solid #E3E3E4;
+}
+
+.record_row>* {
+  margin: 0;
+  font-size: 18px;
+}
+
+.outline_delete {
+  background: #fff;
+  color: #E33;
+  border: 1px solid #E33;
+}
+
+.contarct_card_container .dataCard {
+  width: 100%;
+}
+
+.bar_chart img {
+  width: 100%;
+}
+
+.cards_row {
+  gap: 1.5rem 0;
+}

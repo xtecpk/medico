@@ -1,0 +1,123 @@
+.services-subheading {
+    max-width: 600px;
+    width: 100%;
+}
+
+.services-type {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.signup-services-btn {
+    background-color: var(--theme-blue);
+    width: 100%;
+    max-width: 400px;
+}
+
+.service-type {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--theme-grey-light);
+}
+
+.service-text {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--theme-blue);
+}
+
+.service-card-outer {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.selected-service {
+    box-shadow: 4px 4px 20px 2px var(--theme-blue);
+}
+
+
+.service-amount {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--theme-blue);
+}
+
+.currency {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--theme-grey-light);
+
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    max-width: 250px;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .signup-services-container {
+        width: 100%;
+        padding: 50px 10px;
+        border-radius: 15px;
+    }
+
+    .services-cards {
+        flex-direction: column;
+    }
+
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .signup-services-container {
+        width: 100%;
+        padding: 50px 10px;
+        border-radius: 15px;
+    }
+
+    .services-cards {
+        flex-direction: column;
+    }
+
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .signup-services-container {
+        width: 100%;
+        padding: 70px 20px;
+        border-radius: 15px;
+    }
+
+
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .signup-services-container {
+        width: 95%;
+        padding: 80px 30px;
+        border-radius: 15px;
+    }
+
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+    .signup-services-container {
+        width: 90%;
+        padding: 100px 50px;
+        border-radius: 15px;
+    }
+
+}

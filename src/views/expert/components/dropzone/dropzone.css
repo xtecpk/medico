@@ -1,0 +1,15 @@
+/* flex flex-col items-center justify-center h-full w-auto border-2 rounded-xl cursor-pointer bg-white shadow-3xl hover:scale-105 transition-all */
+.dropzone_label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+  color: var(--theme-gray);
+  height: 6rem;
+  cursor: pointer;
+}
+
+.dropzone_label>input {
+  display: none;
+}

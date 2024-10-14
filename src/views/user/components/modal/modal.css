@@ -1,0 +1,29 @@
+.user_modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #BBC7D966;
+  z-index: 20;
+}
+
+.user_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 25;
+  width: calc(100% - 3rem);
+  max-width: 30rem;
+  max-height: calc(100vh - 3rem);
+  /* overflow-y: hidden; */
+  padding-right: 1rem !important;
+}
+
+.user_modal_inner {
+  width: 100%;
+  max-height: calc(100vh - 7rem);
+  padding-right: 1rem;
+  overflow-y: auto;
+}

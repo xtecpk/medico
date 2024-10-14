@@ -1,0 +1,79 @@
+.user_base {
+  --theme-blue: #2f4058;
+  --theme-gray: #bfc0c2;
+  --theme-gray-light: #d9d9d9;
+  --theme-gray-light2: #f5f5f5;
+  background-color: #efefef;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f4058;
+  border-radius: 1rem;
+  border: 2px solid #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #415570;
+}
+
+.user_base_ar {
+  font-family: "Almarai", sans-serif !important;
+}
+
+.actualVideo {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+.user_base_ar * {
+  direction: rtl;
+}
+
+.font_english {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.font_arabic {
+  font-family: "Almarai", sans-serif;
+}
+
+.user_base_inner {
+  width: 100%;
+}
+
+.user_base_main {
+  padding: 6rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: unset;
+  position: relative;
+}
+
+.user_base_main_ar {
+  margin-right: auto;
+  margin-left: unset;
+}
+
+.user_base_main.user_main_full_width {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  .user_base_main,
+  .user_base_main.user_main_full_width {
+    width: calc(100vw - (18rem + 3rem));
+  }
+}

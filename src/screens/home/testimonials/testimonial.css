@@ -1,0 +1,232 @@
+.testimonials-bg{
+    background-color: #eaedf1;
+    margin-top: 100px;
+}
+
+.testimonials-container{
+   margin: 100px 0px;
+   width: 80%;
+   padding: 20px;
+}
+
+.testimonials-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.testimonials-subheading p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 1.8;
+}
+
+.testimonials{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.testimonials .quotations-marks.top{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.testimonials .quotations-marks.bottom{
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
+.quotations-marks h1{
+    font-size: 60px;
+}
+
+
+.testimonial{
+    position: relative;
+    display: none;
+    animation: fadeOut 1s linear;
+}
+
+.testimonial-quote{
+    font-weight: 500;
+    color: #2F4058;
+}
+
+.testimonial.active{
+    display: block;
+}
+
+.dot{
+    width: 15px;
+    height:15px;
+    border: 1px solid #2F4058;
+    border-radius: 3px;
+}
+
+.dot.active{
+    width: 15px;
+    height:15px;
+    border: 1px solid #2F4058;
+    background-color: #2F4058;
+    animation: fadeOut 1s linear;
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* Styles for small devices (mobile phones) */
+  @media (max-width: 576px) {
+    .testimonials-container{
+        margin-top: 100px;
+        width: 100%;
+        padding: 20px;
+     }
+     
+     .testimonials-heading h1{
+         font-size: 24px;
+         font-weight: 600;
+     }
+     
+     .testimonials-subheading p{
+         font-size: 12px;
+         font-weight: 400;
+         width: 100%;
+         line-height: 1.8;
+     }
+     .testimonials{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .testimonial-quote{
+        font-size: 20px;
+    }
+  }
+  
+  /* Styles for medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .testimonials-container{
+        margin-top: 100px;
+        width: 100%;
+        padding: 20px;
+     }
+     
+     .testimonials-heading h1{
+         font-size: 24px;
+         font-weight: 600;
+     }
+     
+     .testimonials-subheading p{
+         font-size: 14px;
+         font-weight: 400;
+         width: 100%;
+         line-height: 1.8;
+     }
+
+     .testimonials{
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .testimonial-quote{
+        font-size: 22px;
+    }
+  }
+  
+  /* Styles for large devices (small laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .testimonials-container{
+        margin-top: 100px;
+        width: 90%;
+        padding: 20px;
+     }
+     
+     .testimonials-heading h1{
+         font-size: 30px;
+         font-weight: 600;
+     }
+     
+     .testimonials-subheading p{
+         font-size: 16px;
+         font-weight: 400;
+         width: 90%;
+         line-height: 1.8;
+     }
+
+     .testimonials{
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .testimonial-quote{
+        font-size: 24px;
+    }
+  }
+  
+  /* Styles for extra-large devices (laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .testimonials-container{
+        margin-top: 100px;
+        width: 80%;
+        padding: 20px;
+     }
+     
+     .testimonials-heading h1{
+         font-size: 36px;
+         font-weight: 600;
+     }
+     
+     .testimonials-subheading p{
+         font-size: 18px;
+         font-weight: 400;
+         width: 80%;
+         line-height: 1.8;
+     }
+
+     .testimonials{
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .testimonial-quote{
+        font-size: 26px;
+    }
+  }
+  
+  /* Styles for extra-extra-large devices (large desktops) */
+  @media (min-width: 1201px) {
+    .testimonials-container{
+        margin-top: 100px;
+        width: 80%;
+        padding: 20px;
+     }
+     
+     .testimonials-heading h1{
+         font-size: 40px;
+         font-weight: 600;
+     }
+     
+     .testimonials-subheading p{
+         font-size: 20px;
+         font-weight: 400;
+         width: 80%;
+         line-height: 1.8;
+     }
+
+     .testimonials{
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .testimonial-quote{
+        font-size: 28px;
+    }
+  }

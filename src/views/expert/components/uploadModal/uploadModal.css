@@ -1,0 +1,7 @@
+.expert_upload_modal_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  height: auto;
+}

@@ -1,0 +1,18 @@
+.user_chatLeftbarItemLayout {
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px 0px #B4B4B440;
+  background-color: #fff;
+  border: none;
+  padding: .5rem;
+}
+
+.user_chatLeftbarItemLayout--active {
+  background-color: var(--theme-gray-light2);
+}
+
+.user_chatLeftSidebar__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,47 @@
+.expert_chatMain {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.expert_chatMain__input_div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 1.125rem;
+  padding: 1.125rem;
+}
+
+.expert_chatMain__input_div>textarea {
+  width: 100%;
+  background-color: #E9E9E9;
+  resize: none;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: .5rem 1rem;
+  border: none;
+  font-weight: 500;
+  max-height: 9rem;
+  font-size: 0.75rem;
+  color: var(--theme-blue);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.expert_chatMain__input_div>textarea::placeholder {
+  color: var(--theme-gray);
+}
+
+.expert_chatMain__input_div>button {
+  background-color: unset;
+  border: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .expert_chatMain__input_div>textarea {
+    max-height: 12rem;
+  }
+}

@@ -1,0 +1,22 @@
+.expert_chatMemberItem {
+  display: flex;
+  align-items: center;
+}
+
+.expert_chatMemberItem__text_div {
+  width: 100%;
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.expert_chatMemberItem__text_div>h5 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.expert_chatMemberItem__text_div>span {
+  font-size: .75rem;
+  margin-bottom: 0;
+  color: #ABABAB;
+}

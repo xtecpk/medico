@@ -1,0 +1,224 @@
+.signin-container {
+  padding-bottom: 0px !important;
+}
+
+.company-description {
+  width: 50%;
+}
+
+.company-description p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.company-infoSign {
+  margin: 4rem 0;
+  width: 45%;
+  /* max-height: 600px; */
+}
+
+.signin-form-title span {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.signin-form-title p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.signin-form-container {
+  width: 100%;
+  min-width: 300px;
+}
+
+.signin-form-input input {
+  border-radius: 5px;
+  border: 1px solid #2f4058;
+}
+
+.signin-form-input input:focus {
+  outline-style: none;
+}
+
+.signin-form-button button {
+  width: 100%;
+  color: white;
+  background-color: #2f4058;
+  border-radius: 5px;
+  border: 1px solid #2f4058;
+  height: 40px;
+}
+
+.signin-form-button button:hover {
+  color: #2f4058;
+  font-weight: 600;
+  background-color: white;
+}
+
+.signin-form-footer {
+  margin-top: 10px;
+}
+
+.image-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signin-form-footer p {
+  font-size: 12px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .signin-container {
+    width: 100%;
+    padding: 50px 20px;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 24px;
+  }
+
+  .company-infoSign {
+    width: 95%;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 90%;
+  }
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .signin-container {
+    width: 100%;
+    padding: 50px 20px;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+  }
+
+  .company-infoSign {
+    width: 95%;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 28px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-page-card-bg {
+    min-width: 360px;
+  }
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .signin-container {
+    width: 90%;
+    padding: 70px 20px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 32px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 80%;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .signin-container {
+    width: 80%;
+    padding: 80px 30px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 36px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 80%;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .signin-container {
+    padding: 0px 50px;
+    border-radius: 15px;
+  }
+
+  .ser-hero-heading h1 {
+    font-size: 40px;
+  }
+
+  .company-description,
+  .company-contacts {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1201px) {
+  .signinBox {
+    flex-direction: column-reverse;
+    /* width: 70%; */
+  }
+
+  .signin-form {
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .signinBox {
+    width: 70%;
+  }
+}
+
+@media (max-width: 769px) {
+  .mid-logo {
+    display: none;
+  }
+}
+
+.row-reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* version */
+
+.version {
+  position: static;
+  /* bottom: -5px; */
+  left: 10px;
+  padding-left: 10px;
+}

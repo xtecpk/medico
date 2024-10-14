@@ -1,0 +1,28 @@
+.user_otpInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_otpInput__input {
+  width: 2rem;
+  border: none;
+  border-bottom: 2px solid var(--theme-blue);
+  color: var(--theme-blue);
+  margin: 0 .5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: not-allowed;
+  pointer-events: none;
+  font-weight: 700;
+}
+
+.user_otpInput__input:focus {
+  border-bottom: 3px solid var(--theme-gray);
+  outline: none;
+}
+
+.user_otpInput__input:nth-child(1) {
+  cursor: pointer;
+  pointer-events: all;
+}

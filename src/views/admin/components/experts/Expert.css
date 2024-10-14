@@ -1,0 +1,47 @@
+.expert-main-img {
+    width: 70%;
+}
+
+.expertInputBox {
+    height: 100%;
+    /* gap: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.expertsCrd {
+    padding: 7rem 5rem;
+    padding-bottom: 4rem;
+    overflow: visible !important;
+    position: relative;
+}
+
+.expertInputBox .support_light_txt {
+    width: 100%;
+}
+
+.expertInputBox .col-md-12 {
+    min-width: 200px;
+    padding: 0 3rem;
+}
+
+.expertInputBox2 .col-md-12 {
+    margin: 1rem 0;
+    /* width: 280px; */
+}
+
+.ph-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* responsive */
+
+@media(min-width: 767px) {
+    .expertInputBox {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,30 @@
+.expert_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5.5rem;
+  z-index: 12;
+  background-color: var(--theme-gray-extra-light);
+  backdrop-filter: blur(.3rem);
+}
+
+
+.expert_header_bars_btn {
+  border: none;
+  background-color: #fff;
+  padding: 0.675rem 0.75rem;
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+  box-shadow: 4px 4px 20px 0px #0000001A,
+    0px 4px 4px 0px #00000040;
+  border-radius: 1.125rem;
+  z-index: 14;
+}
+
+@media only screen and (min-width: 992px) {
+  .expert_header_bars_btn {
+    display: none;
+  }
+}

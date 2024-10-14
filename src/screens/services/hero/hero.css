@@ -1,0 +1,92 @@
+.ser-hero-bg{
+    margin-top: 70px;
+}
+
+.ser-hero-container{
+    padding-top: 100px;
+}
+
+
+.ser-hero-heading h1{
+    color: #2F4058;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.ser-hero-heading p{
+    color: #2F4058;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+    line-height: 1.8;
+}
+
+@media (max-width: 576px) {
+    .ser-hero-container{
+      width: 100%;
+      padding: 50px 10px;
+      border-radius: 15px;
+    }
+  
+    .ser-hero-heading h1{
+      font-size: 24px;
+    }
+  
+  }
+  
+  /* Styles for medium devices (tablets) */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .ser-hero-container{
+        width: 100%;
+        padding: 50px 10px;
+        border-radius: 15px;
+    }
+    
+    .ser-hero-heading h1{
+      font-size: 28px;
+    }
+
+  }
+  
+  /* Styles for large devices (small laptops) */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .ser-hero-container{
+        width: 90%;
+        padding: 70px 20px;
+        border-radius: 15px;
+    }
+    
+    .ser-hero-heading h1{
+      font-size: 32px;
+    }
+  }
+  
+  /* Styles for extra-large devices (laptops and desktops) */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .ser-hero-container{
+        width: 80%;
+        padding: 80px 30px;
+        border-radius: 15px;
+      }
+    
+      .ser-hero-heading h1{
+        font-size: 36px;
+      }
+  }
+  
+  /* Styles for extra-extra-large devices (large desktops) */
+  @media (min-width: 1201px) {
+    .ser-hero-container{
+        width: 70%;
+        padding: 100px 50px;
+        border-radius: 15px;
+      }
+    
+      .ser-hero-heading h1{
+        font-size: 40px;
+      }
+  }

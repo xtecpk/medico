@@ -1,0 +1,94 @@
+.user_chatMain {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.user_chatMain__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #E9E9E9;
+  padding: 1rem;
+}
+
+.user_chatMain__header__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user_chatMain__header__left>img {
+  width: 2rem;
+}
+
+.user_chatMain__bars_btn {
+  background-color: unset;
+  border: none;
+  border: none;
+  border-radius: .5rem;
+  padding: .25rem;
+}
+
+.user_chatMain__input_div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 1.125rem;
+  padding: 1.125rem;
+}
+
+.user_chatMain__input_div>textarea {
+  width: 100%;
+  background-color: #E9E9E9;
+  resize: none;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: .5rem 1rem;
+  border: none;
+  font-weight: 500;
+  max-height: 9rem;
+  font-size: 0.75rem;
+  color: var(--theme-blue);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.user_chatMain__input_div>textarea::placeholder {
+  color: var(--theme-gray);
+}
+
+.overflowVisible {
+  overflow: visible !important;
+}
+
+.user_chatMain__input_div>button {
+  background-color: unset;
+  border: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .user_chatMain__header {
+    padding: 1rem 1.5rem;
+  }
+
+  .user_chatMain__header__left>img {
+    width: 2.5rem;
+  }
+
+  .user_chatMain__bars_btn {
+    display: none;
+  }
+
+  .user_chatMain__input_div>textarea {
+    max-height: 12rem;
+  }
+}
+
+/* .modalDrop .MuiAutocomplete-root {
+  z-index: 9999;
+} */

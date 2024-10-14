@@ -1,0 +1,175 @@
+.faq-container {
+  margin: 100px 0px;
+}
+
+.faq-question {
+  padding: 20px;
+  border: 1px solid #5C6D85;
+  border-radius: 15px;
+}
+
+.faq-question-answer {
+  display: none;
+}
+
+.faq-question-answer.active {
+  display: block;
+  animation: changeOpacity 0.5s ease-in-out;
+}
+
+.faq-sign {
+  cursor: pointer;
+}
+
+@keyframes changeOpacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Styles for small devices (mobile phones) */
+@media (max-width: 576px) {
+  .faq-container {
+    width: 100%;
+  }
+
+  .faq-title h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .faq-questions {
+    width: 100%;
+  }
+
+  .faq-question-title h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .faq-question-answer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+}
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .faq-container {
+    width: 100%;
+  }
+
+  .faq-title h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .faq-questions {
+    width: 100%;
+  }
+
+  .faq-question-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .faq-question-answer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .faq-container {
+    width: 100%;
+  }
+
+  .faq-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .faq-questions {
+    width: 90%;
+  }
+
+  .faq-question-title h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .faq-question-answer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .faq-container {
+    width: 90%;
+  }
+
+  .faq-title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .faq-questions {
+    width: 80%;
+  }
+
+  .faq-question-title h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .faq-question-answer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .faq-container {
+    width: 80%;
+  }
+
+  .faq-title h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .faq-questions {
+    width: 70%;
+  }
+
+  .faq-question-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .faq-question-answer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}

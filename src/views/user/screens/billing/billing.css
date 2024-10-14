@@ -1,0 +1,33 @@
+.user_billing {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.user_billingHistory__table_outer {
+  width: 100%;
+  overflow: auto;
+}
+
+.user_billing__footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user_billing__footer>div>select {
+  padding: .4rem .75rem;
+  background-color: transparent;
+  border: 1px solid var(--theme-blue);
+  border-radius: 0.4rem;
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+  .user_billing__footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

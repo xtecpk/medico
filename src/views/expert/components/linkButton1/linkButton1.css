@@ -1,0 +1,17 @@
+.expert_link_button1 {
+  background-color: var(--theme-blue);
+  border: none;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+}
+
+.expert_link_button1:hover {
+  color: white;
+}

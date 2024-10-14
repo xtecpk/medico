@@ -1,0 +1,204 @@
+.header-container {
+  position: fixed;
+  top: 0px;
+  right: inherit;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.lan-dropdown {
+  background-color: white;
+}
+
+.lan-nav-item {
+  position: relative;
+}
+
+.lan-nav-item ul {
+  display: none;
+}
+
+.lan-nav-item:hover ul {
+  display: block;
+  position: absolute;
+}
+
+.headLogo {
+  transform: scale(2);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.lan-nav-item:hover .bi-chevron-down {
+  color: #2F4058;
+  animation: rotate 250ms ease-in-out forwards;
+  font-weight: 600;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+li {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: #2F4058;
+}
+
+.link:hover {
+  color: #2F4058;
+}
+
+.header-sign-in-link,
+.header-sign-up-link {
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 35px;
+  text-align: center;
+}
+
+.header-sign-up-link {
+  background-color: #2F4058;
+  color: white;
+
+}
+
+
+.header-sign-up-link:hover {
+  background-color: white;
+  border: 1px solid #2F4058;
+  color: #2F4058;
+}
+
+.header-sign-in-link {
+  color: #2F4058;
+}
+
+.header-sign-in-link:hover {
+  border: #2F4058 1px solid;
+  color: #2F4058;
+}
+
+.navigation-bar {
+  display: flex;
+}
+
+.ham-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.ham-menu ul li {
+  font-size: 20px;
+}
+
+.ham-icon {
+  display: none;
+  transform: scale(1.3);
+}
+
+.cross-icon {
+
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+/* Styles for small devices (mobile phones) */
+@media (max-width: 576px) {
+  .header {
+    display: block;
+    width: 100%;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+
+  .header-sign-in-link,
+  .header-sign-up-link {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+  }
+}
+
+
+/* Styles for medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .header {
+    display: block;
+    width: 100%;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+}
+
+/* Styles for large devices (small laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .header {
+    display: block;
+    width: 100%;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+}
+
+/* Styles for extra-large devices (laptops and desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .header {
+    display: block;
+    width: 90%;
+  }
+}
+
+/* Styles for extra-extra-large devices (large desktops) */
+@media (min-width: 1201px) {
+  .header {
+    display: block;
+    width: 80%;
+    max-width: 80%;
+  }
+}

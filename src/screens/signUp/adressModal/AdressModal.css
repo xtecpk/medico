@@ -1,0 +1,22 @@
+.adressmodal {
+    border-radius: 5px;
+    /* display: contents; */
+    margin-top: 5px;
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+    box-shadow: 0 5px 16px 3px rgba(0, 0, 0, 0.5);
+}
+
+.modal-right .card-title {
+    text-align: right;
+}
+
+.modal-right input {
+    text-align: right;
+}
+
+.modal-right .text-end {
+    display: flex;
+    justify-content: flex-end;
+}

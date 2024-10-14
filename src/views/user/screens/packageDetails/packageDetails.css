@@ -1,0 +1,10 @@
+.user_packageDetails_outer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.user_packageDetails_table_outer {
+  overflow: auto;
+  width: 100%;
+}

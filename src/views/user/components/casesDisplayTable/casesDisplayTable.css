@@ -1,0 +1,33 @@
+.user_cases_display_table {
+  width: 100%;
+  min-width: 32rem;
+}
+
+.user_cases_display_table__head {
+  border-bottom: 1px solid var(--theme-blue);
+}
+
+.user_cases_display_table__label {
+  font-size: 0.875rem;
+  color: var(--theme-gray);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.user_cases_display_table__row {
+  border-bottom: 1px solid var(--theme-gray);
+}
+
+.user_cases_display_table__cell {
+  padding: 1rem;
+}
+
+.user_cases_display_table__cell_link {
+  color: var(--theme-blue);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.user_cases_display_table__cell_link:hover {
+  text-decoration: underline;
+}
