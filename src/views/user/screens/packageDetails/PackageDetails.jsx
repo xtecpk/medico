@@ -17,6 +17,7 @@ import axios from "axios";
 import CreateTicketModal from "../tickets/CreateTicketModal";
 import BankPaymentModal from "../bankPayment/BankPaymentModal";
 import { Alert, Snackbar } from "@mui/material";
+import CardPaymentModal from "../billing/CardPaymentModal";
 
 const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
   const { t } = useTranslation();
@@ -38,6 +39,8 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
   });
   const [createTicketModal, setCreateTicketModal] = useState(false);
   const [bankPaymentModal, setBankPaymentModal] = useState(false);
+  const [amount, setAmount] = useState(currentAvailablePackage.Fee);
+  const [cardPaymentModal, setCardPaymentModal] = useState(false);
   const [message, setMessage] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -50,6 +53,10 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
       ...prevState,
       [e.target.name]: e.target.value,
     }));
+  };
+
+  const toggleCardPaymentModal = () => {
+    setCardPaymentModal(!cardPaymentModal);
   };
 
   const toggleTicketModal = () => {
@@ -88,7 +95,7 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
   const proceedPayment = async () => {
     await axios
       .post(baseURL + "/api/addpayment", {
-        Amount: currentAvailablePackage.Fee,
+        Amount: amount,
         Email: userInfo.Email,
         ClientId: clientId,
       })
@@ -105,7 +112,7 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
       .post(baseURL + "/api/initiatepayment", {
         Language: "en",
         OrderId,
-        OrderAmount: currentAvailablePackage.Fee,
+        OrderAmount: amount,
         OrderCurrency: "SAR",
         OrderDescription: "Subscribe Package",
         Customer: {
@@ -159,6 +166,7 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
         subject: currentAvailablePackage.PackageName,
         description: currentAvailablePackage.Description,
       });
+      setAmount(currentAvailablePackage.Fee);
 
       localStorage.setItem("package", JSON.stringify(currentAvailablePackage));
     }
@@ -184,7 +192,7 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
           <div className="d-flex mb-3">
             <Button1
               text={t("UserPanel.Packages.CardPayment")}
-              onClick={proceedPayment}
+              onClick={toggleCardPaymentModal}
               className="mt-4"
             />
             <Button1
@@ -221,6 +229,15 @@ const PackageDetails = ({ availablePackages, setMoveToTicket }) => {
           toggleModal={toggleBankPaymentModal}
           price={currentAvailablePackage.Fee}
           user={userInfo}
+        />
+      )}
+      {cardPaymentModal && (
+        <CardPaymentModal
+          setAmount={setAmount}
+          amount={amount}
+          selectedPkg={currentAvailablePackage}
+          toggleModal={toggleCardPaymentModal}
+          makePayment={proceedPayment}
         />
       )}
     </>

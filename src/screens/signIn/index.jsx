@@ -186,6 +186,18 @@ const SignIn = () => {
                     </Link>
                   </span>
                 </p>
+                <p className={`${lang === "en" ? "" : "text-end"}`}>
+                  <span>
+                    <Link
+                      target="_blank"
+                      to={
+                        "https://medmal.rasanllp.com/%d8%a7%d9%84%d8%b4%d8%b1%d9%88%d8%b7-%d9%88%d8%a7%d9%84%d8%a3%d8%ad%d9%83%d8%a7%d9%85/"
+                      }
+                    >
+                      {t("SignUp.TermsAndConditions")}
+                    </Link>
+                  </span>
+                </p>
               </div>
             </div>
           </MainPagesCard>
